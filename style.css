@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Top section css start*/
+
+#header {
+    font-size: 30px;
+    color: darkorange;
+}
+
+h1:hover {
+    font-size: 50px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.hire-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, darkorange);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 6px;
+}
+
+
+/*Top section css close*/
+
+
+/*Biograpy section css start*/
+
+.biograpy-banner {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.biograpy-right-half {
+    padding-top: 150px;
+}
+
+.biograpy-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, pink, deeppink);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 6px;
+}
+
+.header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/*Biograpy section css close*/
+
+
+/*latest work section css start*/
+
+.my-project-banner {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.work-photo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.work-photo img {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+}
+
+
+/*latest work section css close*/
+
+
+/*client feedback and response section start*/
+
+.client-banner {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.client-body {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.response-button {
+    background-image: linear-gradient(45deg, pink, deeppink);
+    color: white;
+    padding: 20px 29px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+}
+
+
+/*client feedback and response section start*/
+
+footer p {
+    text-align: center;
+    font-weight: 1px;
+}
